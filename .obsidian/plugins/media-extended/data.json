@@ -1,0 +1,38 @@
+{
+  "defaultVolume": 100,
+  "devices": [],
+  "defaultMxLinkClick": {
+    "click": "split",
+    "alt": "window"
+  },
+  "linkHandler": {
+    "mx-embed": [],
+    "mx-url-audio": [],
+    "mx-url-video": [
+      {
+        "protocol": "https:",
+        "hostname": "www.shidianguji.com",
+        "port": ""
+      }
+    ],
+    "mx-webpage": [
+      {
+        "protocol": "https:",
+        "hostname": "www.shidianguji.com",
+        "pathname": "/book/SK1138/chapter/1llmno84ao36x",
+        "port": ""
+      }
+    ]
+  },
+  "speedStep": 0.1,
+  "loadStrategy": "play",
+  "timestampTemplate": "\n- {{TIMESTAMP}} ",
+  "screenshotTemplate": "\n- !{{SCREENSHOT}} {{TIMESTAMP}} ",
+  "screenshotEmbedTemplate": "{{TITLE}}{{DURATION}}|50",
+  "insertBefore": false,
+  "timestampOffset": 0,
+  "biliDefaultQuality": 80,
+  "screenshotFormat": "image/webp",
+  "enableSubtitle": false,
+  "urlMappingData": []
+}

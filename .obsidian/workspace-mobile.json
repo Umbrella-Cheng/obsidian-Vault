@@ -1,0 +1,220 @@
+{
+  "main": {
+    "id": "39cba73c23d745ea",
+    "type": "split",
+    "children": [
+      {
+        "id": "58219633168b053f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "cf2348ad863b5246",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "自然科学基础/分散系.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "分散系"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "c053d6df2ff725b6",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "940fe70876f38cd9",
+        "type": "leaf",
+        "state": {
+          "type": "file-explorer",
+          "state": {
+            "sortOrder": "alphabetical",
+            "autoReveal": false
+          },
+          "icon": "lucide-folder-closed",
+          "title": "文件列表"
+        }
+      },
+      {
+        "id": "78b4a5aee1d050e9",
+        "type": "leaf",
+        "state": {
+          "type": "search",
+          "state": {
+            "query": "",
+            "matchingCase": false,
+            "explainSearch": false,
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical"
+          },
+          "icon": "lucide-search",
+          "title": "搜索"
+        }
+      },
+      {
+        "id": "0001cfc28c90eb58",
+        "type": "leaf",
+        "state": {
+          "type": "tag",
+          "state": {
+            "sortOrder": "frequency",
+            "useHierarchy": true,
+            "showSearch": false,
+            "searchQuery": ""
+          },
+          "icon": "lucide-tags",
+          "title": "标签"
+        }
+      },
+      {
+        "id": "76464ab20d890d57",
+        "type": "leaf",
+        "state": {
+          "type": "all-properties",
+          "state": {
+            "sortOrder": "frequency",
+            "showSearch": false,
+            "searchQuery": ""
+          },
+          "icon": "lucide-archive",
+          "title": "添加笔记属性"
+        }
+      },
+      {
+        "id": "ff2daf05a3e37415",
+        "type": "leaf",
+        "state": {
+          "type": "bookmarks",
+          "state": {},
+          "icon": "lucide-bookmark",
+          "title": "书签"
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "right": {
+    "id": "5b0e935239fd8753",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "3e6d300ba4b2407e",
+        "type": "leaf",
+        "state": {
+          "type": "backlink",
+          "state": {
+            "file": "物理/Z笔记/运动描述.md",
+            "collapseAll": true,
+            "extraContext": true,
+            "sortOrder": "alphabetical",
+            "showSearch": false,
+            "searchQuery": "",
+            "backlinkCollapsed": false,
+            "unlinkedCollapsed": true
+          },
+          "icon": "links-coming-in",
+          "title": "反向链接"
+        }
+      },
+      {
+        "id": "8463590ab86306e8",
+        "type": "leaf",
+        "state": {
+          "type": "outgoing-link",
+          "state": {
+            "file": "数学/代数/数与式/04 不等式.md",
+            "linksCollapsed": false,
+            "unlinkedCollapsed": true
+          },
+          "icon": "links-going-out",
+          "title": "出链"
+        }
+      },
+      {
+        "id": "df4abd00e68f7c32",
+        "type": "leaf",
+        "state": {
+          "type": "outline",
+          "state": {
+            "file": "化学/Z笔记/胶体.md",
+            "followCursor": false,
+            "showSearch": false,
+            "searchQuery": ""
+          },
+          "icon": "lucide-list",
+          "title": "大纲"
+        }
+      },
+      {
+        "id": "4573ae03dc6d7cc3",
+        "type": "leaf",
+        "state": {
+          "type": "calendar",
+          "state": {},
+          "icon": "calendar-with-checkmark",
+          "title": "Calendar"
+        }
+      }
+    ],
+    "currentTab": 2
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "markdown-importer:打开 Markdown 格式转换器": false,
+      "random-note:开始漫游笔记": false,
+      "workspaces:管理工作区布局": false,
+      "obsidian-tts:Text to Speech": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "obsidian-excalidraw-plugin:新建绘图文件": false,
+      "obsidian42-brat:BRAT": false,
+      "pdf-plus:PDF++: Toggle auto-copy": false,
+      "pdf-plus:PDF++: Toggle auto-focus": false,
+      "pdf-plus:PDF++: Toggle auto-paste": false,
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "bases:新建数据库": false
+    }
+  },
+  "active": "cf2348ad863b5246",
+  "lastOpenFiles": [
+    "化学/Z笔记/溶液.md",
+    "化学/Z笔记/胶体.md",
+    "自然科学基础/分散系.md",
+    "自然科学基础/丁达尔效应.md",
+    "物理/Z笔记/运动描述.md",
+    "化学/Z笔记/物质的组成和性质分类.md",
+    "化学/Z笔记/酸性氧化物.md",
+    "化学/Z笔记/化学方程式.md",
+    "数学/Z笔记/不等式.md",
+    "数学/Z笔记/方差.md",
+    "娱乐/天宝/人物志·张昭.md",
+    "娱乐/天宝/家族志·扬州张氏.md",
+    "数学/代数/数与式/04 不等式.md",
+    "数学/代数/数与式/03 因式分解.md",
+    "数学/0 写给数学.md",
+    "数学/代数/数与式/01 数与式.md",
+    "数学/代数/数与式/02 幂.md",
+    "数学/代数/数与式/02 绝对值.md",
+    "娱乐/天宝",
+    "娱乐",
+    "未命名.canvas",
+    "数学/集合/01 集合.md",
+    "数学/代数/函数/01 二次函数.md",
+    "数学/逻辑/01 逻辑用语.md",
+    "物理/运动学/01 运动描述.md",
+    "“送东阳马生序”.pdf"
+  ]
+}

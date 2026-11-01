@@ -1,0 +1,24 @@
+{
+  "defaultVoice": "Microsoft Mark - English (United States)",
+  "pitch": 1,
+  "rate": 1,
+  "volume": 1,
+  "speakLinks": false,
+  "speakFrontmatter": true,
+  "speakSyntax": true,
+  "speakTitle": true,
+  "speakCodeblocks": false,
+  "speakEmoji": false,
+  "speakComments": true,
+  "languageVoices": [
+    {
+      "language": "en",
+      "voice": "Microsoft Mark - English (United States)"
+    },
+    {
+      "language": "zh",
+      "voice": "Microsoft Yaoyao - Chinese (Simplified, PRC)"
+    }
+  ],
+  "stopPlaybackWhenNoteChanges": false
+}

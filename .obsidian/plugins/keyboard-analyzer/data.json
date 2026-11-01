@@ -1,0 +1,20 @@
+{
+  "showStatusBarItem": true,
+  "filterSettings": {
+    "FeaturedFirst": true,
+    "StrictSearch": false,
+    "HighlightCustom": false,
+    "HighlightDuplicates": true,
+    "DisplayWOhotkeys": false,
+    "DisplayIDs": true
+  },
+  "featuredCommandIDs": [
+    "command-palette:open",
+    "switcher:open",
+    "app:open-settings",
+    "global-search:open",
+    "keyboard-analyzer:show-shortcuts-analyzer-view",
+    "file-explorer:new-file",
+    "Enhanced-editing:cuti-text"
+  ]
+}

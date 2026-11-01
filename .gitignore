@@ -1,0 +1,19 @@
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# Obsidian local state
+.obsidian/workspace
+.obsidian/workspace.json
+.obsidian/workspaces.json
+.obsidian/cache/
+
+# Obsidian Git local data
+.obsidian/plugins/obsidian-git/data.json
+
+# Sensitive files
+.env
+.env.*
+*.pem
+*.key
