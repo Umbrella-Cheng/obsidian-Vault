@@ -1,24 +1,24 @@
 {
   "main": {
-    "id": "39cba73c23d745ea",
+    "id": "ccee95c78b652d89",
     "type": "split",
     "children": [
       {
-        "id": "58219633168b053f",
+        "id": "62f85f1d1e1d0be8",
         "type": "tabs",
         "children": [
           {
-            "id": "cf2348ad863b5246",
+            "id": "bad5511e0347bd53",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "自然科学基础/分散系.md",
+                "file": "物理/Z笔记/布朗运动.md",
                 "mode": "source",
-                "source": false
+                "source": true
               },
               "icon": "lucide-file",
-              "title": "分散系"
+              "title": "布朗运动"
             }
           }
         ]
@@ -27,24 +27,26 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "c053d6df2ff725b6",
+    "id": "ec13e75ec2d76408",
     "type": "mobile-drawer",
     "children": [
       {
-        "id": "940fe70876f38cd9",
+        "id": "d9cabb37db4ae696",
         "type": "leaf",
         "state": {
           "type": "file-explorer",
           "state": {
             "sortOrder": "alphabetical",
-            "autoReveal": false
+            "autoReveal": false,
+            "showSearch": false,
+            "searchQuery": ""
           },
           "icon": "lucide-folder-closed",
           "title": "文件列表"
         }
       },
       {
-        "id": "78b4a5aee1d050e9",
+        "id": "c417dc758e6e68bc",
         "type": "leaf",
         "state": {
           "type": "search",
@@ -61,7 +63,7 @@
         }
       },
       {
-        "id": "0001cfc28c90eb58",
+        "id": "78fad89fb4317698",
         "type": "leaf",
         "state": {
           "type": "tag",
@@ -76,7 +78,7 @@
         }
       },
       {
-        "id": "76464ab20d890d57",
+        "id": "f72ae439692f23e1",
         "type": "leaf",
         "state": {
           "type": "all-properties",
@@ -90,11 +92,14 @@
         }
       },
       {
-        "id": "ff2daf05a3e37415",
+        "id": "2fe57626a515ed2d",
         "type": "leaf",
         "state": {
           "type": "bookmarks",
-          "state": {},
+          "state": {
+            "showSearch": false,
+            "searchQuery": ""
+          },
           "icon": "lucide-bookmark",
           "title": "书签"
         }
@@ -103,18 +108,18 @@
     "currentTab": 0
   },
   "right": {
-    "id": "5b0e935239fd8753",
+    "id": "f6b595743aa327ce",
     "type": "mobile-drawer",
     "children": [
       {
-        "id": "3e6d300ba4b2407e",
+        "id": "b215e9f59d39071d",
         "type": "leaf",
         "state": {
           "type": "backlink",
           "state": {
-            "file": "物理/Z笔记/运动描述.md",
+            "file": "物理/Z笔记/布朗运动.md",
             "collapseAll": true,
-            "extraContext": true,
+            "extraContext": false,
             "sortOrder": "alphabetical",
             "showSearch": false,
             "searchQuery": "",
@@ -126,12 +131,11 @@
         }
       },
       {
-        "id": "8463590ab86306e8",
+        "id": "b1000acaf0739d42",
         "type": "leaf",
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "数学/代数/数与式/04 不等式.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           },
@@ -140,12 +144,12 @@
         }
       },
       {
-        "id": "df4abd00e68f7c32",
+        "id": "880980aa8f8a7ce4",
         "type": "leaf",
         "state": {
           "type": "outline",
           "state": {
-            "file": "化学/Z笔记/胶体.md",
+            "file": "物理/Z笔记/布朗运动.md",
             "followCursor": false,
             "showSearch": false,
             "searchQuery": ""
@@ -155,66 +159,95 @@
         }
       },
       {
-        "id": "4573ae03dc6d7cc3",
+        "id": "5fe5ee63e56a0b76",
         "type": "leaf",
         "state": {
           "type": "calendar",
           "state": {},
-          "icon": "calendar-with-checkmark",
-          "title": "Calendar"
+          "icon": "lucide-ghost",
+          "title": "calendar"
+        }
+      },
+      {
+        "id": "b9416535899bbd29",
+        "type": "leaf",
+        "state": {
+          "type": "git-view",
+          "state": {},
+          "icon": "git-pull-request",
+          "title": "Source Control"
         }
       }
     ],
-    "currentTab": 2
+    "currentTab": 4
   },
   "left-ribbon": {
     "hiddenItems": {
-      "markdown-importer:打开 Markdown 格式转换器": false,
       "random-note:开始漫游笔记": false,
       "workspaces:管理工作区布局": false,
-      "obsidian-tts:Text to Speech": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "obsidian-excalidraw-plugin:新建绘图文件": false,
-      "obsidian42-brat:BRAT": false,
-      "pdf-plus:PDF++: Toggle auto-copy": false,
-      "pdf-plus:PDF++: Toggle auto-focus": false,
-      "pdf-plus:PDF++: Toggle auto-paste": false,
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
       "canvas:新建白板": false,
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
       "command-palette:打开命令面板": false,
-      "bases:新建数据库": false
+      "bases:新建数据库": false,
+      "obsidian-tts:Text to Speech": false,
+      "obsidian-excalidraw-plugin:新建绘图文件": false,
+      "obsidian42-brat:BRAT": false,
+      "pdf-plus:PDF++: Toggle auto-copy": false,
+      "pdf-plus:PDF++: Toggle auto-focus": false,
+      "pdf-plus:PDF++: Toggle auto-paste": false,
+      "obsidian-git:Open Git source control": false
     }
   },
-  "active": "cf2348ad863b5246",
+  "active": "bad5511e0347bd53",
   "lastOpenFiles": [
-    "化学/Z笔记/溶液.md",
-    "化学/Z笔记/胶体.md",
-    "自然科学基础/分散系.md",
-    "自然科学基础/丁达尔效应.md",
-    "物理/Z笔记/运动描述.md",
-    "化学/Z笔记/物质的组成和性质分类.md",
-    "化学/Z笔记/酸性氧化物.md",
-    "化学/Z笔记/化学方程式.md",
+    "物理/Z笔记/布朗运动.md",
+    "化学/Z笔记/置换反应.md",
     "数学/Z笔记/不等式.md",
-    "数学/Z笔记/方差.md",
-    "娱乐/天宝/人物志·张昭.md",
-    "娱乐/天宝/家族志·扬州张氏.md",
-    "数学/代数/数与式/04 不等式.md",
-    "数学/代数/数与式/03 因式分解.md",
-    "数学/0 写给数学.md",
-    "数学/代数/数与式/01 数与式.md",
-    "数学/代数/数与式/02 幂.md",
-    "数学/代数/数与式/02 绝对值.md",
-    "娱乐/天宝",
-    "娱乐",
-    "未命名.canvas",
-    "数学/集合/01 集合.md",
-    "数学/代数/函数/01 二次函数.md",
-    "数学/逻辑/01 逻辑用语.md",
-    "物理/运动学/01 运动描述.md",
-    "“送东阳马生序”.pdf"
+    "数学/Z笔记/因式分解.md",
+    "化学/Z笔记/离子反应.md",
+    "化学/Z笔记/两性氧化物.md",
+    "化学/Z笔记/分子.md",
+    "化学/A备考/物质的分类重点.md",
+    "化学/Z笔记/化学计量.md",
+    "自然科学基础/分散系.md",
+    "化学/Z笔记/酸.md",
+    "化学/Z笔记/化学元素.md",
+    "数学/Z笔记/一元二次方程.md",
+    "化学/Z笔记/胶体.md",
+    "化学/Z笔记/溶液.md",
+    "ChatGPT科学写作准则.md",
+    "文学/哲学/东方哲学/诸子百家.md",
+    "文学/哲学/东方哲学/出世与入世.md",
+    "文学/世界观/造化之门/一.md",
+    "文学/世界观/2077/经济系统.md",
+    "文学/世界观/骑砍rp/莫尔里德·阿尔德伯里角色档案.md",
+    "文学/世界观/骑砍rp/第一轮.md",
+    "文学/世界观/暗月循影/第一章·雪樱谷下.md",
+    "物理/Z笔记/运动描述.md",
+    "科学方法论/归纳法.md",
+    "数学/Z笔记/二次函数.md",
+    "Z附件/Pasted image 20260516132638.png",
+    "Z附件/Pasted image 20260104172124.png",
+    "Z附件/Pasted image 20260616023539.png",
+    "Z附件/Pasted image 20260110030138.png",
+    "Z附件/ded66f5981b1bbdf4b19263d87a513d6.jpg",
+    "Z附件/Pasted image 20260616070625.png",
+    "Z附件/Pasted image 20260104211336.png",
+    "Z附件/Pasted image 20260104211846.png",
+    "Z附件/Pasted image 20260616025843.png",
+    "Z附件/Pasted image 20260615010259.png",
+    "“送东阳马生序”.pdf",
+    "原则.pdf",
+    "自然科学基础",
+    "科学方法论",
+    "化学/Z物质",
+    "化学/Z笔记",
+    "化学/A备考",
+    "化学",
+    "物理/Z笔记",
+    "物理"
   ]
 }

@@ -14,7 +14,6 @@
     }
   ],
   "app:open-help": [],
-  "app:open-settings": [],
   "workspace:close-window": [],
   "graph:open": [],
   "switcher:open": [],
@@ -414,5 +413,53 @@
       "key": "Tab"
     }
   ],
-  "file-explorer:new-file": []
+  "file-explorer:new-file": [],
+  "mobile:quick-action": [
+    {
+      "modifiers": [
+        "Ctrl"
+      ],
+      "key": "Q"
+    }
+  ],
+  "editor:undo": [
+    {
+      "modifiers": [
+        "Ctrl"
+      ],
+      "key": "ArrowRight"
+    }
+  ],
+  "editor:cut": [
+    {
+      "modifiers": [
+        "Ctrl"
+      ],
+      "key": "V"
+    }
+  ],
+  "editor:copy": [
+    {
+      "modifiers": [
+        "Ctrl"
+      ],
+      "key": "Z"
+    }
+  ],
+  "outline:open": [
+    {
+      "modifiers": [
+        "Ctrl"
+      ],
+      "key": "A"
+    }
+  ],
+  "random-note": [
+    {
+      "modifiers": [
+        "Ctrl"
+      ],
+      "key": "P"
+    }
+  ]
 }

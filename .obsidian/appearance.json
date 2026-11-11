@@ -4,5 +4,11 @@
   "cssTheme": "Things",
   "baseFontSize": 17,
   "textFontFamily": "",
-  "baseFontSizeAction": false
+  "baseFontSizeAction": false,
+  "enabledCssSnippets": [
+    "白色背景1——深绿色",
+    "白色背景3——黑蓝色",
+    "白色背景4——绛红色",
+    "白色背景2——绿色"
+  ]
 }
