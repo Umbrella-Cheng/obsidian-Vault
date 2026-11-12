@@ -8,17 +8,17 @@
         "type": "tabs",
         "children": [
           {
-            "id": "bad5511e0347bd53",
+            "id": "5a810eb395d1a424",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "物理/Z笔记/布朗运动.md",
+                "file": "化学/Z笔记/酸.md",
                 "mode": "source",
-                "source": true
+                "source": false
               },
               "icon": "lucide-file",
-              "title": "布朗运动"
+              "title": "酸"
             }
           }
         ]
@@ -201,14 +201,19 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "bad5511e0347bd53",
+  "active": "b9416535899bbd29",
   "lastOpenFiles": [
+    "化学/Z笔记/离子反应.md",
+    "化学/Z笔记/离子.md",
+    "化学/Z笔记/两性氧化物.md",
+    "ChatGPT科学写作准则.md",
+    "化学/Z笔记/溶液.md",
+    "化学/Z笔记/胶体.md",
+    "化学/Z笔记/氧化还原反应.md",
     "物理/Z笔记/布朗运动.md",
     "化学/Z笔记/置换反应.md",
     "数学/Z笔记/不等式.md",
     "数学/Z笔记/因式分解.md",
-    "化学/Z笔记/离子反应.md",
-    "化学/Z笔记/两性氧化物.md",
     "化学/Z笔记/分子.md",
     "化学/A备考/物质的分类重点.md",
     "化学/Z笔记/化学计量.md",
@@ -216,9 +221,6 @@
     "化学/Z笔记/酸.md",
     "化学/Z笔记/化学元素.md",
     "数学/Z笔记/一元二次方程.md",
-    "化学/Z笔记/胶体.md",
-    "化学/Z笔记/溶液.md",
-    "ChatGPT科学写作准则.md",
     "文学/哲学/东方哲学/诸子百家.md",
     "文学/哲学/东方哲学/出世与入世.md",
     "文学/世界观/造化之门/一.md",
@@ -227,8 +229,6 @@
     "文学/世界观/骑砍rp/第一轮.md",
     "文学/世界观/暗月循影/第一章·雪樱谷下.md",
     "物理/Z笔记/运动描述.md",
-    "科学方法论/归纳法.md",
-    "数学/Z笔记/二次函数.md",
     "Z附件/Pasted image 20260516132638.png",
     "Z附件/Pasted image 20260104172124.png",
     "Z附件/Pasted image 20260616023539.png",
