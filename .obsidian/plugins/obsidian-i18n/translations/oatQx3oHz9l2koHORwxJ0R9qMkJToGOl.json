@@ -1,0 +1,898 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "editing-toolbar",
+        "version": "1.0.0",
+        "title": "Editing Toolbar",
+        "description": "Editing Toolbar Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "2.2.0",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "AssignmentExpression",
+                    "name": "innerHTML",
+                    "source": "<div class='x-color-picker-wrapper'>\n<div class='x-color-picker' >\n  <table class=\"x-color-picker-table\" id='x-color-picker-table'>\n    <tbody>\n      <tr>\n        <th colspan=\"10\" class=\"ui-widget-content\">Theme Colors</th>\n      </tr>\n      <tr>\n        <td style=\"background-color:#ffffff\"><span></span></td>\n        <td style=\"background-color:#000000\"><span></span></td>\n        <td style=\"background-color:#eeece1\"><span></span></td>\n        <td style=\"background-color:#1f497d\"><span></span></td>\n        <td style=\"background-color:#4f81bd\"><span></span></td>\n        <td style=\"background-color:#c0504d\"><span></span></td>\n        <td style=\"background-color:#9bbb59\"><span></span></td>\n        <td style=\"background-color:#8064a2\"><span></span></td>\n        <td style=\"background-color:#4bacc6\"><span></span></td>\n        <td style=\"background-color:#f79646\"><span></span></td>\n      </tr>\n      <tr>\n        <th colspan=\"10\"></th>\n      </tr>\n      <tr class=\"top\">\n        <td style=\"background-color:#f2f2f2\"><span></span></td>\n        <td style=\"background-color:#7f7f7f\"><span></span></td>\n        <td style=\"background-color:#ddd9c3\"><span></span></td>\n        <td style=\"background-color:#c6d9f0\"><span></span></td>\n        <td style=\"background-color:#dbe5f1\"><span></span></td>\n        <td style=\"background-color:#f2dcdb\"><span></span></td>\n        <td style=\"background-color:#ebf1dd\"><span></span></td>\n        <td style=\"background-color:#e5e0ec\"><span></span></td>\n        <td style=\"background-color:#dbeef3\"><span></span></td>\n        <td style=\"background-color:#fdeada\"><span></span></td>\n      </tr>\n      <tr class=\"in\">\n        <td style=\"background-color:#d8d8d8\"><span></span></td>\n        <td style=\"background-color:#595959\"><span></span></td>\n        <td style=\"background-color:#c4bd97\"><span></span></td>\n        <td style=\"background-color:#8db3e2\"><span></span></td>\n        <td style=\"background-color:#b8cce4\"><span></span></td>\n        <td style=\"background-color:#e5b9b7\"><span></span></td>\n        <td style=\"background-color:#d7e3bc\"><span></span></td>\n        <td style=\"background-color:#ccc1d9\"><span></span></td>\n        <td style=\"background-color:#b7dde8\"><span></span></td>\n        <td style=\"background-color:#fbd5b5\"><span></span></td>\n      </tr>\n      <tr class=\"in\">\n        <td style=\"background-color:#bfbfbf\"><span></span></td>\n        <td style=\"background-color:#3f3f3f\"><span></span></td>\n        <td style=\"background-color:#938953\"><span></span></td>\n        <td style=\"background-color:#548dd4\"><span></span></td>\n        <td style=\"background-color:#95b3d7\"><span></span></td>\n        <td style=\"background-color:#d99694\"><span></span></td>\n        <td style=\"background-color:#c3d69b\"><span></span></td>\n        <td style=\"background-color:#b2a2c7\"><span></span></td>\n        <td style=\"background-color:#92cddc\"><span></span></td>\n        <td style=\"background-color:#fac08f\"><span></span></td>\n      </tr>\n      <tr class=\"in\">\n        <td style=\"background-color:#a5a5a5\"><span></span></td>\n        <td style=\"background-color:#262626\"><span></span></td>\n        <td style=\"background-color:#494429\"><span></span></td>\n        <td style=\"background-color:#17365d\"><span></span></td>\n        <td style=\"background-color:#366092\"><span></span></td>\n        <td style=\"background-color:#953734\"><span></span></td>\n        <td style=\"background-color:#76923c\"><span></span></td>\n        <td style=\"background-color:#5f497a\"><span></span></td>\n        <td style=\"background-color:#31859b\"><span></span></td>\n        <td style=\"background-color:#e36c09\"><span></span></td>\n      </tr>\n      <tr class=\"bottom\">\n        <td style=\"background-color:#7f7f7f\"><span></span></td>\n        <td style=\"background-color:#0c0c0c\"><span></span></td>\n        <td style=\"background-color:#1d1b10\"><span></span></td>\n        <td style=\"background-color:#0f243e\"><span></span></td>\n        <td style=\"background-color:#244061\"><span></span></td>\n        <td style=\"background-color:#632423\"><span></span></td>\n        <td style=\"background-color:#4f6128\"><span></span></td>\n        <td style=\"background-color:#3f3151\"><span></span></td>\n        <td style=\"background-color:#205867\"><span></span></td>\n        <td style=\"background-color:#974806\"><span></span></td>\n      </tr>\n       <tr>\n        <th colspan=\"10\"></th>\n      </tr>\n      <tr>\n        <th colspan=\"10\" class=\"ui-widget-content\">Standard Colors</th>\n      </tr>\n      <tr>\n        <td style=\"background-color:#c00000\"><span></span></td>\n        <td style=\"background-color:#ff0000\"><span></span></td>\n        <td style=\"background-color:#ffc000\"><span></span></td>\n        <td style=\"background-color:#ffff00\"><span></span></td>\n        <td style=\"background-color:#92d050\"><span></span></td>\n        <td style=\"background-color:#00b050\"><span></span></td>\n        <td style=\"background-color:#00b0f0\"><span></span></td>\n        <td style=\"background-color:#0070c0\"><span></span></td>\n        <td style=\"background-color:#002060\"><span></span></td>\n        <td style=\"background-color:#7030a0\"><span></span></td>\n      </tr>\n    </tbody>\n  </table>\n</div>\n</div>",
+                    "target": "<div class='x-color-picker-wrapper'>\n<div class='x-color-picker' >\n  <table class=\"x-color-picker-table\" id='x-color-picker-table'>\n    <tbody>\n      <tr>\n        <th colspan=\"10\" class=\"ui-widget-content\">Theme Colors</th>\n      </tr>\n      <tr>\n        <td style=\"background-color:#ffffff\"><span></span></td>\n        <td style=\"background-color:#000000\"><span></span></td>\n        <td style=\"background-color:#eeece1\"><span></span></td>\n        <td style=\"background-color:#1f497d\"><span></span></td>\n        <td style=\"background-color:#4f81bd\"><span></span></td>\n        <td style=\"background-color:#c0504d\"><span></span></td>\n        <td style=\"background-color:#9bbb59\"><span></span></td>\n        <td style=\"background-color:#8064a2\"><span></span></td>\n        <td style=\"background-color:#4bacc6\"><span></span></td>\n        <td style=\"background-color:#f79646\"><span></span></td>\n      </tr>\n      <tr>\n        <th colspan=\"10\"></th>\n      </tr>\n      <tr class=\"top\">\n        <td style=\"background-color:#f2f2f2\"><span></span></td>\n        <td style=\"background-color:#7f7f7f\"><span></span></td>\n        <td style=\"background-color:#ddd9c3\"><span></span></td>\n        <td style=\"background-color:#c6d9f0\"><span></span></td>\n        <td style=\"background-color:#dbe5f1\"><span></span></td>\n        <td style=\"background-color:#f2dcdb\"><span></span></td>\n        <td style=\"background-color:#ebf1dd\"><span></span></td>\n        <td style=\"background-color:#e5e0ec\"><span></span></td>\n        <td style=\"background-color:#dbeef3\"><span></span></td>\n        <td style=\"background-color:#fdeada\"><span></span></td>\n      </tr>\n      <tr class=\"in\">\n        <td style=\"background-color:#d8d8d8\"><span></span></td>\n        <td style=\"background-color:#595959\"><span></span></td>\n        <td style=\"background-color:#c4bd97\"><span></span></td>\n        <td style=\"background-color:#8db3e2\"><span></span></td>\n        <td style=\"background-color:#b8cce4\"><span></span></td>\n        <td style=\"background-color:#e5b9b7\"><span></span></td>\n        <td style=\"background-color:#d7e3bc\"><span></span></td>\n        <td style=\"background-color:#ccc1d9\"><span></span></td>\n        <td style=\"background-color:#b7dde8\"><span></span></td>\n        <td style=\"background-color:#fbd5b5\"><span></span></td>\n      </tr>\n      <tr class=\"in\">\n        <td style=\"background-color:#bfbfbf\"><span></span></td>\n        <td style=\"background-color:#3f3f3f\"><span></span></td>\n        <td style=\"background-color:#938953\"><span></span></td>\n        <td style=\"background-color:#548dd4\"><span></span></td>\n        <td style=\"background-color:#95b3d7\"><span></span></td>\n        <td style=\"background-color:#d99694\"><span></span></td>\n        <td style=\"background-color:#c3d69b\"><span></span></td>\n        <td style=\"background-color:#b2a2c7\"><span></span></td>\n        <td style=\"background-color:#92cddc\"><span></span></td>\n        <td style=\"background-color:#fac08f\"><span></span></td>\n      </tr>\n      <tr class=\"in\">\n        <td style=\"background-color:#a5a5a5\"><span></span></td>\n        <td style=\"background-color:#262626\"><span></span></td>\n        <td style=\"background-color:#494429\"><span></span></td>\n        <td style=\"background-color:#17365d\"><span></span></td>\n        <td style=\"background-color:#366092\"><span></span></td>\n        <td style=\"background-color:#953734\"><span></span></td>\n        <td style=\"background-color:#76923c\"><span></span></td>\n        <td style=\"background-color:#5f497a\"><span></span></td>\n        <td style=\"background-color:#31859b\"><span></span></td>\n        <td style=\"background-color:#e36c09\"><span></span></td>\n      </tr>\n      <tr class=\"bottom\">\n        <td style=\"background-color:#7f7f7f\"><span></span></td>\n        <td style=\"background-color:#0c0c0c\"><span></span></td>\n        <td style=\"background-color:#1d1b10\"><span></span></td>\n        <td style=\"background-color:#0f243e\"><span></span></td>\n        <td style=\"background-color:#244061\"><span></span></td>\n        <td style=\"background-color:#632423\"><span></span></td>\n        <td style=\"background-color:#4f6128\"><span></span></td>\n        <td style=\"background-color:#3f3151\"><span></span></td>\n        <td style=\"background-color:#205867\"><span></span></td>\n        <td style=\"background-color:#974806\"><span></span></td>\n      </tr>\n       <tr>\n        <th colspan=\"10\"></th>\n      </tr>\n      <tr>\n        <th colspan=\"10\" class=\"ui-widget-content\">Standard Colors</th>\n      </tr>\n      <tr>\n        <td style=\"background-color:#c00000\"><span></span></td>\n        <td style=\"background-color:#ff0000\"><span></span></td>\n        <td style=\"background-color:#ffc000\"><span></span></td>\n        <td style=\"background-color:#ffff00\"><span></span></td>\n        <td style=\"background-color:#92d050\"><span></span></td>\n        <td style=\"background-color:#00b050\"><span></span></td>\n        <td style=\"background-color:#00b0f0\"><span></span></td>\n        <td style=\"background-color:#0070c0\"><span></span></td>\n        <td style=\"background-color:#002060\"><span></span></td>\n        <td style=\"background-color:#7030a0\"><span></span></td>\n      </tr>\n    </tbody>\n  </table>\n</div>\n</div>"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "innerHTML",
+                    "source": "<div class='x-color-picker-wrapper'>\n<div class='x-color-picker' >\n  <table class=\"x-color-picker-table\" id='x-backgroundcolor-picker-table'>\n    <tbody>\n      <tr>\n        <th colspan=\"5\" class=\"ui-widget-content\">Translucent Colors</th>\n      </tr>\n      <tr class=\"top\">\n        <td style=\"background-color:rgba(140, 140, 140, 0.12)\"><span></span></td>\n        <td style=\"background-color:rgba(92, 92, 92, 0.2)\"><span></span></td>\n        <td style=\"background-color:rgba(163, 67, 31, 0.2)\"><span></span></td>\n        <td style=\"background-color:rgba(240, 107, 5, 0.2)\"><span></span></td>\n        <td style=\"background-color:rgba(240, 200, 0, 0.2)\"><span></span></td>\n        </tr>\n        <tr class=\"bottom\">\n        <td style=\"background-color:rgba(3, 135, 102, 0.2)\"><span></span></td>\n        <td style=\"background-color:rgba(3, 135, 102, 0.2)\"><span></span></td>\n        <td style=\"background-color:rgba(5, 117, 197, 0.2)\"><span></span></td>\n        <td style=\"background-color:rgba(74, 82, 199, 0.2)\"><span></span></td>\n        <td style=\"background-color:rgba(136, 49, 204, 0.2)\"><span></span></td>\n      </tr>\n      <tr>\n      <th colspan=\"5\" class=\"ui-widget-content\">Highlighter Colors</th>\n    </tr>\n    \n    <tr class=\"top\">\n      <td style=\"background-color:rgb(255, 248, 143)\"><span></span></td>\n      <td style=\"background-color:rgb(211, 248, 182)\"><span></span></td>\n      <td style=\"background-color:rgb(175, 250, 209)\"><span></span></td>\n      <td style=\"background-color:rgb(177, 255, 255)\"><span></span></td>\n      <td style=\"background-color:rgb(253, 191, 255)\"><span></span></td>\n      </tr>\n      <tr class=\"bottom\">\n      <td style=\"background-color:rgb(210, 203, 255);\"><span></span></td>\n      <td style=\"background-color:rgb(64, 169, 255);\"><span></span></td>\n      <td style=\"background-color:rgb(255, 77, 79);\"><span></span></td>\n      <td style=\"background-color:rgb(212, 177, 6);\"><span></span></td>\n      <td style=\"background-color:rgb(146, 84, 222);\"><span></span></td>\n    </tr>\n    </tbody>\n  </table>\n</div>\n</div>",
+                    "target": "<div class='x-color-picker-wrapper'>\n<div class='x-color-picker' >\n  <table class=\"x-color-picker-table\" id='x-backgroundcolor-picker-table'>\n    <tbody>\n      <tr>\n        <th colspan=\"5\" class=\"ui-widget-content\">Translucent Colors</th>\n      </tr>\n      <tr class=\"top\">\n        <td style=\"background-color:rgba(140, 140, 140, 0.12)\"><span></span></td>\n        <td style=\"background-color:rgba(92, 92, 92, 0.2)\"><span></span></td>\n        <td style=\"background-color:rgba(163, 67, 31, 0.2)\"><span></span></td>\n        <td style=\"background-color:rgba(240, 107, 5, 0.2)\"><span></span></td>\n        <td style=\"background-color:rgba(240, 200, 0, 0.2)\"><span></span></td>\n        </tr>\n        <tr class=\"bottom\">\n        <td style=\"background-color:rgba(3, 135, 102, 0.2)\"><span></span></td>\n        <td style=\"background-color:rgba(3, 135, 102, 0.2)\"><span></span></td>\n        <td style=\"background-color:rgba(5, 117, 197, 0.2)\"><span></span></td>\n        <td style=\"background-color:rgba(74, 82, 199, 0.2)\"><span></span></td>\n        <td style=\"background-color:rgba(136, 49, 204, 0.2)\"><span></span></td>\n      </tr>\n      <tr>\n      <th colspan=\"5\" class=\"ui-widget-content\">Highlighter Colors</th>\n    </tr>\n    \n    <tr class=\"top\">\n      <td style=\"background-color:rgb(255, 248, 143)\"><span></span></td>\n      <td style=\"background-color:rgb(211, 248, 182)\"><span></span></td>\n      <td style=\"background-color:rgb(175, 250, 209)\"><span></span></td>\n      <td style=\"background-color:rgb(177, 255, 255)\"><span></span></td>\n      <td style=\"background-color:rgb(253, 191, 255)\"><span></span></td>\n      </tr>\n      <tr class=\"bottom\">\n      <td style=\"background-color:rgb(210, 203, 255);\"><span></span></td>\n      <td style=\"background-color:rgb(64, 169, 255);\"><span></span></td>\n      <td style=\"background-color:rgb(255, 77, 79);\"><span></span></td>\n      <td style=\"background-color:rgb(212, 177, 6);\"><span></span></td>\n      <td style=\"background-color:rgb(146, 84, 222);\"><span></span></td>\n    </tr>\n    </tbody>\n  </table>\n</div>\n</div>"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "innerHTML",
+                    "source": "<svg  width=\"14\" height=\"14\"  version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1024 1024\" enable-background=\"new 0 0 1024 1024\" xml:space=\"preserve\"><path fill=\"#666\" d=\"M510.29 14.13 q17.09 -15.07 40.2 -14.07 q23.12 1 39.2 18.08 l334.66 385.92 q25.12 30.15 34.16 66.83 q9.04 36.68 0.5 73.87 q-8.54 37.19 -32.66 67.34 l-335.67 390.94 q-15.07 18.09 -38.69 20.1 q-23.62 2.01 -41.71 -13.07 q-18.08 -15.08 -20.09 -38.19 q-2.01 -23.12 13.06 -41.21 l334.66 -390.94 q11.06 -13.06 11.56 -29.65 q0.5 -16.58 -10.55 -29.64 l-334.67 -386.92 q-15.07 -17.09 -13.56 -40.7 q1.51 -23.62 19.59 -38.7 ZM81.17 14.13 q17.08 -15.07 40.19 -14.07 q23.11 1 39.2 18.08 l334.66 385.92 q25.12 30.15 34.16 66.83 q9.04 36.68 0.5 73.87 q-8.54 37.19 -32.66 67.34 l-335.67 390.94 q-15.07 18.09 -38.69 20.6 q-23.61 2.51 -41.7 -12.57 q-18.09 -15.08 -20.1 -38.69 q-2.01 -23.62 13.06 -41.71 l334.66 -390.94 q11.06 -13.06 11.56 -29.65 q0.5 -16.58 -10.55 -29.64 l-334.66 -386.92 q-15.08 -17.09 -13.57 -40.7 q1.51 -23.62 19.6 -38.7 Z\"/></svg>",
+                    "target": "<svg  width=\"14\" height=\"14\"  version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1024 1024\" enable-background=\"new 0 0 1024 1024\" xml:space=\"preserve\"><path fill=\"#666\" d=\"M510.29 14.13 q17.09 -15.07 40.2 -14.07 q23.12 1 39.2 18.08 l334.66 385.92 q25.12 30.15 34.16 66.83 q9.04 36.68 0.5 73.87 q-8.54 37.19 -32.66 67.34 l-335.67 390.94 q-15.07 18.09 -38.69 20.1 q-23.62 2.01 -41.71 -13.07 q-18.08 -15.08 -20.09 -38.19 q-2.01 -23.12 13.06 -41.21 l334.66 -390.94 q11.06 -13.06 11.56 -29.65 q0.5 -16.58 -10.55 -29.64 l-334.67 -386.92 q-15.07 -17.09 -13.56 -40.7 q1.51 -23.62 19.59 -38.7 ZM81.17 14.13 q17.08 -15.07 40.19 -14.07 q23.11 1 39.2 18.08 l334.66 385.92 q25.12 30.15 34.16 66.83 q9.04 36.68 0.5 73.87 q-8.54 37.19 -32.66 67.34 l-335.67 390.94 q-15.07 18.09 -38.69 20.6 q-23.61 2.51 -41.7 -12.57 q-18.09 -15.08 -20.1 -38.69 q-2.01 -23.62 13.06 -41.71 l334.66 -390.94 q11.06 -13.06 11.56 -29.65 q0.5 -16.58 -10.55 -29.64 l-334.66 -386.92 q-15.08 -17.09 -13.57 -40.7 q1.51 -23.62 19.6 -38.7 Z\"/></svg>"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "innerHTML",
+                    "source": "<img src=\"https://img.buymeacoffee.com/button-api/?text=Buy me a coffee &emoji=&slug=Cuman&button_colour=BD5FFF&font_colour=ffffff&font_family=Poppins&outline_colour=000000&coffee_colour=FFDD00\" />",
+                    "target": "<img src=\"https://img.buymeacoffee.com/button-api/?text=Buy me a coffee &emoji=&slug=Cuman&button_colour=BD5FFF&font_colour=ffffff&font_family=Poppins&outline_colour=000000&coffee_colour=FFDD00\" />"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": "如果你喜欢这个插件，并且正在考虑捐款支持继续开发，请使用下面的按钮！",
+                    "target": "如果你喜欢这个插件，并且正在考虑捐款支持继续开发，请使用下面的按钮！"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "div",
+                    "target": "div"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "span",
+                    "target": "span"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "color: Violet",
+                    "target": "color: Violet"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "%ccMenuToolbar refreshed",
+                    "target": "%ccMenuToolbar refreshed"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "color: #989cab",
+                    "target": "color: #989cab"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "cMenuToolbar unloaded",
+                    "target": "cMenuToolbar unloaded"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Choose an icon",
+                    "target": "Choose an icon"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Choose a command",
+                    "target": "Choose a command"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "content",
+                    "source": "content",
+                    "target": "content"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "icon",
+                    "source": "<svg width=\"18\" height=\"18\" focusable=\"false\" fill=\"currentColor\"  viewBox=\"0 0 1024 1024\"><g transform=\"scale(1, -1) translate(0, -896) scale(0.9, 0.9) \"><path class=\"path\" d=\"M889 512 l-211 211 q-26 27 -61 36 q-35 9 -70 0 q-35 -9 -61 -36 l-351 -350 q-26 -27 -35.5 -62 q-9.5 -35 0 -70 q9.5 -35 35.5 -61 l170 -170 q12 -12 29 -12 l215 0 q17 0 29 12 l311 310 q26 26 35.5 61 q9.5 35 0 70 q-9.5 35 -35.5 61 ZM831 453 q15 -15 15.5 -36.5 q0.5 -21.5 -14.5 -37.5 l-300 -298 l-181 0 l-158 158 q-15 15 -15 37 q0 22 15 38 l351 351 q16 16 38 16 q22 0 37 -16 l212 -212 ZM686 217 l-59 -59 l-317 315 l58 59 l318 -315 ZM883 81 q18 0 30.5 -12 q12.5 -12 12.5 -29 q0 -17 -12.5 -29 q-12.5 -12 -29.5 -13 l-456 0 q-17 0 -29.5 12 q-12.5 12 -12.5 29 q0 17 12 29 q12 12 29 13 l456 0 Z\"></path></g></svg>",
+                    "target": "<svg width=\"18\" height=\"18\" focusable=\"false\" fill=\"currentColor\"  viewBox=\"0 0 1024 1024\"><g transform=\"scale(1, -1) translate(0, -896) scale(0.9, 0.9) \"><path class=\"path\" d=\"M889 512 l-211 211 q-26 27 -61 36 q-35 9 -70 0 q-35 -9 -61 -36 l-351 -350 q-26 -27 -35.5 -62 q-9.5 -35 0 -70 q9.5 -35 35.5 -61 l170 -170 q12 -12 29 -12 l215 0 q17 0 29 12 l311 310 q26 26 35.5 61 q9.5 35 0 70 q-9.5 35 -35.5 61 ZM831 453 q15 -15 15.5 -36.5 q0.5 -21.5 -14.5 -37.5 l-300 -298 l-181 0 l-158 158 q-15 15 -15 37 q0 22 15 38 l351 351 q16 16 38 16 q22 0 37 -16 l212 -212 ZM686 217 l-59 -59 l-317 315 l58 59 l318 -315 ZM883 81 q18 0 30.5 -12 q12.5 -12 12.5 -29 q0 -17 -12.5 -29 q-12.5 -12 -29.5 -13 l-456 0 q-17 0 -29.5 12 q-12.5 12 -12.5 29 q0 17 12 29 q12 12 29 13 l456 0 Z\"></path></g></svg>"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "icon",
+                    "source": "<svg width=\"24\" height=\"24\" focusable=\"false\" fill=\"currentColor\"><g fill-rule=\"evenodd\"><path id=\"change-font-color-icon\" d=\"M3 18h18v3H3z\" style=\"fill:#2DC26B\"></path><path d=\"M8.7 16h-.8a.5.5 0 01-.5-.6l2.7-9c.1-.3.3-.4.5-.4h2.8c.2 0 .4.1.5.4l2.7 9a.5.5 0 01-.5.6h-.8a.5.5 0 01-.4-.4l-.7-2.2c0-.3-.3-.4-.5-.4h-3.4c-.2 0-.4.1-.5.4l-.7 2.2c0 .3-.2.4-.4.4zm2.6-7.6l-.6 2a.5.5 0 00.5.6h1.6a.5.5 0 00.5-.6l-.6-2c0-.3-.3-.4-.5-.4h-.4c-.2 0-.4.1-.5.4z\"></path></g></svg>",
+                    "target": "<svg width=\"24\" height=\"24\" focusable=\"false\" fill=\"currentColor\"><g fill-rule=\"evenodd\"><path id=\"change-font-color-icon\" d=\"M3 18h18v3H3z\" style=\"fill:#2DC26B\"></path><path d=\"M8.7 16h-.8a.5.5 0 01-.5-.6l2.7-9c.1-.3.3-.4.5-.4h2.8c.2 0 .4.1.5.4l2.7 9a.5.5 0 01-.5.6h-.8a.5.5 0 01-.4-.4l-.7-2.2c0-.3-.3-.4-.5-.4h-3.4c-.2 0-.4.1-.5.4l-.7 2.2c0 .3-.2.4-.4.4zm2.6-7.6l-.6 2a.5.5 0 00.5.6h1.6a.5.5 0 00.5-.6l-.6-2c0-.3-.3-.4-.5-.4h-.4c-.2 0-.4.1-.5.4z\"></path></g></svg>"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "icon",
+                    "source": "<svg width=\"18\" height=\"24\" viewBox=\"0 0 256 256\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\"><g   stroke=\"none\" stroke-width=\"1\" fill=\"currentColor\" fill-rule=\"evenodd\"><g  ><g fill=\"currentColor\"><g transform=\"translate(119.502295, 137.878331) rotate(-135.000000) translate(-119.502295, -137.878331) translate(48.002295, 31.757731)\" ><path d=\"M100.946943,60.8084699 L43.7469427,60.8084699 C37.2852111,60.8084699 32.0469427,66.0467383 32.0469427,72.5084699 L32.0469427,118.70847 C32.0469427,125.170201 37.2852111,130.40847 43.7469427,130.40847 L100.946943,130.40847 C107.408674,130.40847 112.646943,125.170201 112.646943,118.70847 L112.646943,72.5084699 C112.646943,66.0467383 107.408674,60.8084699 100.946943,60.8084699 Z M93.646,79.808 L93.646,111.408 L51.046,111.408 L51.046,79.808 L93.646,79.808 Z\" fill-rule=\"nonzero\"></path><path d=\"M87.9366521,16.90916 L87.9194966,68.2000001 C87.9183543,69.4147389 86.9334998,70.399264 85.7187607,70.4 L56.9423078,70.4 C55.7272813,70.4 54.7423078,69.4150264 54.7423078,68.2 L54.7423078,39.4621057 C54.7423078,37.2523513 55.5736632,35.1234748 57.0711706,33.4985176 L76.4832996,12.4342613 C78.9534987,9.75382857 83.1289108,9.5834005 85.8093436,12.0535996 C87.1658473,13.303709 87.9372691,15.0644715 87.9366521,16.90916 Z\" fill-rule=\"evenodd\"></path><path d=\"M131.3,111.241199 L11.7,111.241199 C5.23826843,111.241199 0,116.479467 0,122.941199 L0,200.541199 C0,207.002931 5.23826843,212.241199 11.7,212.241199 L131.3,212.241199 C137.761732,212.241199 143,207.002931 143,200.541199 L143,122.941199 C143,116.479467 137.761732,111.241199 131.3,111.241199 Z M124,130.241 L124,193.241 L19,193.241 L19,130.241 L124,130.241 Z\" fill-rule=\"nonzero\"></path></g></g><path d=\"M51,218 L205,218 C211.075132,218 216,222.924868 216,229 C216,235.075132 211.075132,240 205,240 L51,240 C44.9248678,240 40,235.075132 40,229 C40,222.924868 44.9248678,218 51,218 Z\" id=\"change-background-color-icon\" style=\"fill:#FA541C\"></path></g></g></svg>",
+                    "target": "<svg width=\"18\" height=\"24\" viewBox=\"0 0 256 256\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\"><g   stroke=\"none\" stroke-width=\"1\" fill=\"currentColor\" fill-rule=\"evenodd\"><g  ><g fill=\"currentColor\"><g transform=\"translate(119.502295, 137.878331) rotate(-135.000000) translate(-119.502295, -137.878331) translate(48.002295, 31.757731)\" ><path d=\"M100.946943,60.8084699 L43.7469427,60.8084699 C37.2852111,60.8084699 32.0469427,66.0467383 32.0469427,72.5084699 L32.0469427,118.70847 C32.0469427,125.170201 37.2852111,130.40847 43.7469427,130.40847 L100.946943,130.40847 C107.408674,130.40847 112.646943,125.170201 112.646943,118.70847 L112.646943,72.5084699 C112.646943,66.0467383 107.408674,60.8084699 100.946943,60.8084699 Z M93.646,79.808 L93.646,111.408 L51.046,111.408 L51.046,79.808 L93.646,79.808 Z\" fill-rule=\"nonzero\"></path><path d=\"M87.9366521,16.90916 L87.9194966,68.2000001 C87.9183543,69.4147389 86.9334998,70.399264 85.7187607,70.4 L56.9423078,70.4 C55.7272813,70.4 54.7423078,69.4150264 54.7423078,68.2 L54.7423078,39.4621057 C54.7423078,37.2523513 55.5736632,35.1234748 57.0711706,33.4985176 L76.4832996,12.4342613 C78.9534987,9.75382857 83.1289108,9.5834005 85.8093436,12.0535996 C87.1658473,13.303709 87.9372691,15.0644715 87.9366521,16.90916 Z\" fill-rule=\"evenodd\"></path><path d=\"M131.3,111.241199 L11.7,111.241199 C5.23826843,111.241199 0,116.479467 0,122.941199 L0,200.541199 C0,207.002931 5.23826843,212.241199 11.7,212.241199 L131.3,212.241199 C137.761732,212.241199 143,207.002931 143,200.541199 L143,122.941199 C143,116.479467 137.761732,111.241199 131.3,111.241199 Z M124,130.241 L124,193.241 L19,193.241 L19,130.241 L124,130.241 Z\" fill-rule=\"nonzero\"></path></g></g><path d=\"M51,218 L205,218 C211.075132,218 216,222.924868 216,229 C216,235.075132 211.075132,240 205,240 L51,240 C44.9248678,240 40,235.075132 40,229 C40,222.924868 44.9248678,218 51,218 Z\" id=\"change-background-color-icon\" style=\"fill:#FA541C\"></path></g></g></svg>"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "icon",
+                    "source": "fullscreen",
+                    "target": "fullscreen"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "label",
+                    "target": "label"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "撤消",
+                    "target": "撤消"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "重做",
+                    "target": "重做"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "清除文本格式",
+                    "target": "清除文本格式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "2 级标题",
+                    "target": "2 级标题"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "3 级标题",
+                    "target": "3 级标题"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "子菜单",
+                    "target": "子菜单"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "1 级标题",
+                    "target": "1 级标题"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "4 级标题",
+                    "target": "4 级标题"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "5 级标题",
+                    "target": "5 级标题"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "6 级标题",
+                    "target": "6 级标题"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "粗体",
+                    "target": "粗体"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "斜体",
+                    "target": "斜体"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "删除线",
+                    "target": "删除线"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "下划线",
+                    "target": "下划线"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "==高亮显示==",
+                    "target": "==高亮显示=="
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "块引用",
+                    "target": "块引用"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "上标",
+                    "target": "上标"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "下标",
+                    "target": "下标"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "内联代码",
+                    "target": "内联代码"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "代码块",
+                    "target": "代码块"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "插入 wiki链接 [[]]",
+                    "target": "插入 wiki链接 [[]]"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "插入链接[]()",
+                    "target": "插入链接[]()"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "插入嵌入！[[]]",
+                    "target": "插入嵌入！[[]]"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "水平分隔器",
+                    "target": "水平分隔器"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "子菜单-列表",
+                    "target": "子菜单-列表"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "编号列表",
+                    "target": "编号列表"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "项目符号",
+                    "target": "项目符号"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "cMenu:反缩进列表",
+                    "target": "cMenu:反缩进列表"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "cMenu:缩进列表",
+                    "target": "cMenu:缩进列表"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "子菜单-位置",
+                    "target": "子菜单-位置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "<p aligin=\"justify\"></p>",
+                    "target": "<p aligin=\"justify\"></p>"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "<p aligin=\"left\"></p>",
+                    "target": "<p aligin=\"left\"></p>"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "<居中>",
+                    "target": "<居中>"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "<p aligin=\"right\"></p>",
+                    "target": "<p aligin=\"right\"></p>"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "更改字体颜色[html]",
+                    "target": "更改字体颜色[html]"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "更改背景颜色[html]",
+                    "target": "更改背景颜色[html]"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "全屏对焦模式",
+                    "target": "全屏对焦模式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "工作区全屏",
+                    "target": "工作区全屏"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "滤器",
+                    "target": "滤器"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "选择",
+                    "target": "选择"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "开始",
+                    "target": "开始"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "克隆",
+                    "target": "克隆"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "变化",
+                    "target": "变化"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "取消选择",
+                    "target": "取消选择"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "添加",
+                    "target": "添加"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "去除",
+                    "target": "去除"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "排序",
+                    "target": "排序"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "更新",
+                    "target": "更新"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "结束",
+                    "target": "结束"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "项目",
+                    "target": "项目"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "HR",
+                    "target": "HR"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "name",
+                    "target": "name"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "添加嵌入",
+                    "target": "添加嵌入"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "插入标记链接",
+                    "target": "插入标记链接"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "添加标签",
+                    "target": "添加标签"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "添加内部链接",
+                    "target": "添加内部链接"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "代码",
+                    "target": "代码"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "检查表状态",
+                    "target": "检查表状态"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "注释",
+                    "target": "注释"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "高亮显示",
+                    "target": "高亮显示"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "隐藏/显示",
+                    "target": "隐藏/显示"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "格式化橡皮擦",
+                    "target": "格式化橡皮擦"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "关闭格式画笔",
+                    "target": "关闭格式画笔"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "缩进列表",
+                    "target": "缩进列表"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "反缩进列表",
+                    "target": "反缩进列表"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "清除标题级别",
+                    "target": "清除标题级别"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "placeholder",
+                    "target": "placeholder"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "summary",
+                    "source": "summary",
+                    "target": "summary"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Obsidian Editing Toolbar",
+                    "target": "Obsidian Editing Toolbar"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Chetachi 👩🏽‍💻",
+                    "target": "Chetachi 👩🏽‍💻"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": " 原创： ",
+                    "target": " 原创： "
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Cuman ✨",
+                    "target": "Cuman ✨"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "     修改者： ",
+                    "target": "     修改者： "
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "title",
+                    "target": "title"
+                }
+            ],
+            "regex": [
+                {
+                    "source": "setPlaceholder(\"Choose an icon\")",
+                    "target": "setPlaceholder(\"Choose an icon\")"
+                },
+                {
+                    "source": "setPlaceholder(\"Choose a command\")",
+                    "target": "setPlaceholder(\"Choose a command\")"
+                },
+                {
+                    "source": "Notice(\"The command\"+i.name+\"already exists\",3e3):i.icon?(this.plugin.settings.menuCommands.push(i),yield this.plugin.saveSettings(),setTimeout((()=>{dispatchEvent(new Event(\"cMenuToolbar-NewCommand\")",
+                    "target": "Notice(\"The command\"+i.name+\"already exists\",3e3):i.icon?(this.plugin.settings.menuCommands.push(i),yield this.plugin.saveSettings(),setTimeout((()=>{dispatchEvent(new Event(\"cMenuToolbar-NewCommand\")"
+                },
+                {
+                    "source": "log(\"%ccMenuToolbar refreshed\",\"color: Violet\")",
+                    "target": "log(\"%ccMenuToolbar refreshed\",\"color: Violet\")"
+                },
+                {
+                    "source": "appendText(\"如果你喜欢这个插件，并且正在考虑捐款支持继续开发，请使用下面的按钮！\")",
+                    "target": "appendText(\"如果你喜欢这个插件，并且正在考虑捐款支持继续开发，请使用下面的按钮！\")"
+                },
+                {
+                    "source": "log(\"cMenuToolbar v\"+this.manifest.version+\" loaded\")",
+                    "target": "log(\"cMenuToolbar v\"+this.manifest.version+\" loaded\")"
+                },
+                {
+                    "source": "log(\"cMenuToolbar unloaded\")",
+                    "target": "log(\"cMenuToolbar unloaded\")"
+                },
+                {
+                    "source": "name:\"撤消\"",
+                    "target": "name:\"撤消\""
+                },
+                {
+                    "source": "name:\"重做\"",
+                    "target": "name:\"重做\""
+                },
+                {
+                    "source": "name:\"清除文本格式\"",
+                    "target": "name:\"清除文本格式\""
+                },
+                {
+                    "source": "name:\"3 级标题\"",
+                    "target": "name:\"3 级标题\""
+                },
+                {
+                    "source": "name:\"子菜单\"",
+                    "target": "name:\"子菜单\""
+                },
+                {
+                    "source": "name:\"1 级标题\"",
+                    "target": "name:\"1 级标题\""
+                },
+                {
+                    "source": "name:\"4 级标题\"",
+                    "target": "name:\"4 级标题\""
+                },
+                {
+                    "source": "name:\"5 级标题\"",
+                    "target": "name:\"5 级标题\""
+                },
+                {
+                    "source": "name:\"6 级标题\"",
+                    "target": "name:\"6 级标题\""
+                },
+                {
+                    "source": "name:\"粗体\"",
+                    "target": "name:\"粗体\""
+                },
+                {
+                    "source": "name:\"斜体\"",
+                    "target": "name:\"斜体\""
+                },
+                {
+                    "source": "name:\"删除线\"",
+                    "target": "name:\"删除线\""
+                },
+                {
+                    "source": "name:\"下划线\"",
+                    "target": "name:\"下划线\""
+                },
+                {
+                    "source": "name:\"==高亮显示==\"",
+                    "target": "name:\"==高亮显示==\""
+                },
+                {
+                    "source": "name:\"块引用\"",
+                    "target": "name:\"块引用\""
+                },
+                {
+                    "source": "name:\"上标\"",
+                    "target": "name:\"上标\""
+                },
+                {
+                    "source": "name:\"下标\"",
+                    "target": "name:\"下标\""
+                },
+                {
+                    "source": "name:\"内联代码\"",
+                    "target": "name:\"内联代码\""
+                },
+                {
+                    "source": "name:\"代码块\"",
+                    "target": "name:\"代码块\""
+                },
+                {
+                    "source": "name:\"插入 wiki链接 [[]]\"",
+                    "target": "name:\"插入 wiki链接 [[]]\""
+                },
+                {
+                    "source": "name:\"插入链接[]()\"",
+                    "target": "name:\"插入链接[]()\""
+                },
+                {
+                    "source": "name:\"插入嵌入！[[]]\"",
+                    "target": "name:\"插入嵌入！[[]]\""
+                },
+                {
+                    "source": "name:\"水平分隔器\"",
+                    "target": "name:\"水平分隔器\""
+                },
+                {
+                    "source": "name:\"子菜单-列表\"",
+                    "target": "name:\"子菜单-列表\""
+                },
+                {
+                    "source": "name:\"编号列表\"",
+                    "target": "name:\"编号列表\""
+                },
+                {
+                    "source": "name:\"项目符号\"",
+                    "target": "name:\"项目符号\""
+                },
+                {
+                    "source": "name:\"cMenu:反缩进列表\"",
+                    "target": "name:\"cMenu:反缩进列表\""
+                },
+                {
+                    "source": "name:\"cMenu:缩进列表\"",
+                    "target": "name:\"cMenu:缩进列表\""
+                },
+                {
+                    "source": "name:\"子菜单-位置\"",
+                    "target": "name:\"子菜单-位置\""
+                },
+                {
+                    "source": "name:'<p aligin=\"justify\"></p>'",
+                    "target": "name:'<p aligin=\"justify\"></p>'"
+                },
+                {
+                    "source": "name:'<p aligin=\"left\"></p>'",
+                    "target": "name:'<p aligin=\"left\"></p>'"
+                },
+                {
+                    "source": "name:\"<居中>\"",
+                    "target": "name:\"<居中>\""
+                },
+                {
+                    "source": "name:'<p aligin=\"right\"></p>'",
+                    "target": "name:'<p aligin=\"right\"></p>'"
+                },
+                {
+                    "source": "name:\"更改字体颜色[html]\"",
+                    "target": "name:\"更改字体颜色[html]\""
+                },
+                {
+                    "source": "name:\"更改背景颜色[html]\"",
+                    "target": "name:\"更改背景颜色[html]\""
+                },
+                {
+                    "source": "name:\"全屏对焦模式\"",
+                    "target": "name:\"全屏对焦模式\""
+                },
+                {
+                    "source": "name:\"工作区全屏\"",
+                    "target": "name:\"工作区全屏\""
+                },
+                {
+                    "source": "name:\"滤器\"",
+                    "target": "name:\"滤器\""
+                },
+                {
+                    "source": "name:\"选择\"",
+                    "target": "name:\"选择\""
+                },
+                {
+                    "source": "name:\"开始\"",
+                    "target": "name:\"开始\""
+                },
+                {
+                    "source": "name:\"克隆\"",
+                    "target": "name:\"克隆\""
+                },
+                {
+                    "source": "name:\"变化\"",
+                    "target": "name:\"变化\""
+                },
+                {
+                    "source": "name:\"取消选择\"",
+                    "target": "name:\"取消选择\""
+                },
+                {
+                    "source": "name:\"添加\"",
+                    "target": "name:\"添加\""
+                },
+                {
+                    "source": "name:\"去除\"",
+                    "target": "name:\"去除\""
+                },
+                {
+                    "source": "name:\"排序\"",
+                    "target": "name:\"排序\""
+                },
+                {
+                    "source": "name:\"更新\"",
+                    "target": "name:\"更新\""
+                },
+                {
+                    "source": "name:\"结束\"",
+                    "target": "name:\"结束\""
+                },
+                {
+                    "source": "text:\"Obsidian Editing Toolbar\"",
+                    "target": "text:\"Obsidian Editing Toolbar\""
+                },
+                {
+                    "source": "text:\" 原创： \"",
+                    "target": "text:\" 原创： \""
+                },
+                {
+                    "source": "text:\"Chetachi 👩🏽‍💻\"",
+                    "target": "text:\"Chetachi 👩🏽‍💻\""
+                },
+                {
+                    "source": "text:\"     修改者： \"",
+                    "target": "text:\"     修改者： \""
+                },
+                {
+                    "source": "text:\"Cuman ✨\"",
+                    "target": "text:\"Cuman ✨\""
+                },
+                {
+                    "source": "name:\"项目\"",
+                    "target": "name:\"项目\""
+                },
+                {
+                    "source": "name=\"Invariant Violation\"",
+                    "target": "name=\"Invariant Violation\""
+                },
+                {
+                    "source": "name: `%s`",
+                    "target": "name: `%s`"
+                },
+                {
+                    "source": "name:\"类名\"",
+                    "target": "name:\"类名\""
+                },
+                {
+                    "source": "name:\"字形名称\"",
+                    "target": "name:\"字形名称\""
+                },
+                {
+                    "source": "name:\"添加嵌入\"",
+                    "target": "name:\"添加嵌入\""
+                },
+                {
+                    "source": "name:\"插入标记链接\"",
+                    "target": "name:\"插入标记链接\""
+                },
+                {
+                    "source": "name:\"添加标签\"",
+                    "target": "name:\"添加标签\""
+                },
+                {
+                    "source": "name:\"添加内部链接\"",
+                    "target": "name:\"添加内部链接\""
+                },
+                {
+                    "source": "name:\"代码\"",
+                    "target": "name:\"代码\""
+                },
+                {
+                    "source": "name:\"检查表状态\"",
+                    "target": "name:\"检查表状态\""
+                },
+                {
+                    "source": "name:\"注释\"",
+                    "target": "name:\"注释\""
+                },
+                {
+                    "source": "name:\"高亮显示\"",
+                    "target": "name:\"高亮显示\""
+                },
+                {
+                    "source": "name:\"隐藏/显示\"",
+                    "target": "name:\"隐藏/显示\""
+                },
+                {
+                    "source": "name:\"格式化橡皮擦\"",
+                    "target": "name:\"格式化橡皮擦\""
+                },
+                {
+                    "source": "name:\"关闭格式画笔\"",
+                    "target": "name:\"关闭格式画笔\""
+                },
+                {
+                    "source": "name:\"缩进列表\"",
+                    "target": "name:\"缩进列表\""
+                },
+                {
+                    "source": "name:\"反缩进列表\"",
+                    "target": "name:\"反缩进列表\""
+                },
+                {
+                    "source": "name:\"清除标题级别\"",
+                    "target": "name:\"清除标题级别\""
+                },
+                {
+                    "source": "name:`切换 ${r}`",
+                    "target": "name:`切换 ${r}`"
+                }
+            ]
+        }
+    }
+}

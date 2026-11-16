@@ -40,5 +40,6 @@
     "editor:go-end",
     "editor:set-heading-1"
   ],
-  "readableLineLength": true
+  "readableLineLength": true,
+  "trashOption": "none"
 }
