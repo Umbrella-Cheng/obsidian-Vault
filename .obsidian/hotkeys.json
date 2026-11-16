@@ -231,12 +231,6 @@
       "key": "M"
     }
   ],
-  "editor:toggle-source": [
-    {
-      "modifiers": [],
-      "key": "F6"
-    }
-  ],
   "window:zoom-out": [
     {
       "modifiers": [],
@@ -414,14 +408,6 @@
     }
   ],
   "file-explorer:new-file": [],
-  "mobile:quick-action": [
-    {
-      "modifiers": [
-        "Ctrl"
-      ],
-      "key": "Q"
-    }
-  ],
   "editor:undo": [
     {
       "modifiers": [
@@ -457,9 +443,17 @@
   "random-note": [
     {
       "modifiers": [
-        "Ctrl"
+        "Mod"
       ],
-      "key": "P"
+      "key": "G"
+    }
+  ],
+  "editor:toggle-source": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "O"
     }
   ]
 }
