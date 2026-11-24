@@ -2591,15 +2591,15 @@
     "expandedKeys": []
   },
   "ChatGPT科学写作准则.md": {
-    "scroll": 188.86029411764707,
+    "scroll": 115.79656862745098,
     "cursor": {
       "from": {
-        "line": 200,
-        "ch": 64
+        "line": 134,
+        "ch": 10
       },
       "to": {
-        "line": 200,
-        "ch": 64
+        "line": 134,
+        "ch": 10
       }
     },
     "expandedKeys": []
@@ -3006,6 +3006,34 @@
       "to": {
         "line": 171,
         "ch": 48
+      }
+    },
+    "expandedKeys": []
+  },
+  "科学方法论/归纳法.md": {
+    "scroll": 23.690563725490197,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "科学方法论/数学证明的构造与推导.md": {
+    "scroll": 3.405024509803922,
+    "cursor": {
+      "from": {
+        "line": 14,
+        "ch": 0
+      },
+      "to": {
+        "line": 14,
+        "ch": 0
       }
     },
     "expandedKeys": []
